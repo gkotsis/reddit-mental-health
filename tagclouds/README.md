@@ -1,32 +1,32 @@
-BipolarSOs
+##BipolarSOs
 ![Image of BipolarSOs](BipolarSOs.png)
-addiction
+##addiction
 ![Image of addiction](addiction.png)
-schizophrenia
+##schizophrenia
 ![Image of schizophrenia](schizophrenia.png)
-autism
+##autism
 ![Image of autism](autism.png)
-selfharm
+##selfharm
 ![Image of selfharm](selfharm.png)
-BPD
+##BPD
 ![Image of BPD](BPD.png)
-OpiatesRecovery
+##OpiatesRecovery
 ![Image of OpiatesRecovery](OpiatesRecovery.png)
-BipolarReddit
+##BipolarReddit
 ![Image of BipolarReddit](BipolarReddit.png)
-aspergers
+##aspergers
 ![Image of aspergers](aspergers.png)
-bipolar
+##bipolar
 ![Image of bipolar](bipolar.png)
-Anxiety
+##Anxiety
 ![Image of Anxiety](Anxiety.png)
-cripplingalcoholism
+##cripplingalcoholism
 ![Image of cripplingalcoholism](cripplingalcoholism.png)
-suicidewatch
+##suicidewatch
 ![Image of suicidewatch](suicidewatch.png)
-opiates
+##opiates
 ![Image of opiates](opiates.png)
-depression
+##depression
 ![Image of depression](depression.png)
-StopSelfHarm
+##StopSelfHarm
 ![Image of StopSelfHarm](StopSelfHarm.png)
