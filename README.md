@@ -1,5 +1,5 @@
 # reddit-mental-health
-This repository contains the methods for producing language features from subreddits. The code was developed as part of the following paper:
+This repository contains the methods for producing language features from subreddits. If you use the code and want to cite our work, please use the following paper:
 
 > George Gkotsis, Anika Oellrich, Tim Hubbard, Richard Dobson, Maria Liakata, Sumithra Velupillai and Rina Dutta. The language of mental health problems in social media, Computational Linguistics and Clinical Psychology (clpsych, NAACL 2016).
 
