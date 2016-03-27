@@ -1,6 +1,4 @@
-# this is classification based on various attributes
 
-# https://gist.githubusercontent.com/zacstewart/5978000/raw/632fca1b53509e21dc938977ca9a9f915ac19d3f/classifier.py
 import numpy
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
