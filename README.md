@@ -35,6 +35,7 @@ import binaryClassification
 binaryClassification.main()
 rs = binaryClassification.readResults()
 ```
+The complete output of the classification results is also stored as a dictionary in pickle format (file: combinations-10fold.pickle)
 
 ## Tagclouds
 Follow the [link](tagclouds)
