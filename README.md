@@ -6,6 +6,10 @@ This repository contains the methods for producing language features from subred
 
 The repository includes two Pandas Dataframes that are a small subset of the original datasets used in our study. The data provided here are mostly for demonstration purposes.
 
+## Installation
+
+Follow requirements.txt (spaCy has an extra [step](https://spacy.io/#install))
+
 ## Language features
 
 For the syntactic features, run:
