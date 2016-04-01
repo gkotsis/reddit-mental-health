@@ -9,7 +9,7 @@ The repository includes two Pandas Dataframes that are a small subset of the ori
 ## Installation
 
 Follow [requirements.txt](requirements.txt)
-(spaCy has an extra [step](https://spacy.io/#install))
+(spaCy has an extra [step](https://spacy.io/docs#install))
 
 ## Language features
 
