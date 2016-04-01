@@ -6,6 +6,8 @@ This repository contains the methods for producing language features from subred
 
 The repository includes two Pandas Dataframes that are a small subset of the original datasets used in our study. The data provided here are mostly for demonstration purposes.
 
+The complete dataset we used can be found in reddit ([comments](https://redd.it/3bxlg7), [posts](https://redd.it/3mg812)).
+
 ## Installation
 
 Follow [requirements.txt](requirements.txt)
