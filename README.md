@@ -3,9 +3,9 @@ This repository contains the methods for producing language features from subred
 
 > George Gkotsis, Anika Oellrich, Tim Hubbard, Richard Dobson, Maria Liakata, Sumithra Velupillai and Rina Dutta. The Language of Mental Health Problems in Social Media, Computational Linguistics and Clinical Psychology (clpsych, NAACL 2016).
 
-[paper](CLPsych10.pdf)
+[paper](CLPsych7.pdf)
 
-[supplement](CLPsych10_OptionalAttachment.pdf)
+[supplement](CLPsych7_OptionalAttachment.pdf)
 
 The repository includes two Pandas Dataframes that are a small subset of the original datasets used in our study. The data provided here are mostly for demonstration purposes.
 
