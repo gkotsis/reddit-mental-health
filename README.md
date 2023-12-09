@@ -39,7 +39,7 @@ The complete output of the classification results is also stored as a dictionary
 ## Wordclouds
 Follow the [link](wordclouds)
 
-# Refernce Papers
+# Reference Papers
 
 ###  The Language of Mental Health Problems in Social Media, Computational Linguistics and Clinical Psychology
 
