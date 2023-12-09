@@ -8,13 +8,13 @@ from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_
 import pandas as pd
 import content
 
-print """USAGE:
+print("""USAGE:
 get data as:
 [['text', 'class']]
 
 pipeline = bagOfWords()
 pipeline = evaluate(pipeline, data=data)
-"""
+""")
 
 def getData(df1, df2):
     import readability
