@@ -1,13 +1,16 @@
-# reddit-mental-health
-This repository contains the methods for producing language features from subreddits. If you use the code and want to cite our work, please use the following paper:
+# Socialmedia AI Analysis and Mental Health Predictive Intervention
+
+# Updates
+
+- Refactored and Upgraded to python3 by [Adam D](https://github.com/adamd1985).
+
+# Refernce Papers and Original Authors
+
 
 > George Gkotsis, Anika Oellrich, Tim Hubbard, Richard Dobson, Maria Liakata, Sumithra Velupillai and Rina Dutta. The Language of Mental Health Problems in Social Media, Computational Linguistics and Clinical Psychology ([clpsych](http://hollingk.github.io/CLPsych/index.html), NAACL 2016).
 
 [paper](CLPsych7.pdf)
-
 [supplement](CLPsych7_OptionalAttachment.pdf)
-
-The repository includes two Pandas Dataframes that are a small subset of the original datasets used in our study. The data provided here are mostly for demonstration purposes.
 
 The complete dataset we used can be found in reddit ([comments](https://redd.it/3bxlg7), [posts](https://redd.it/3mg812)).
 
@@ -23,7 +26,7 @@ For the syntactic features, run:
 ```python
 import pandas as pd
 import content
-df = pd.read_pickle("suicidewatch-sample.pickle")
+df = pd.read_pickle("suicidewatch-sample.pkl")
 df = content.addSyntacticFeatures(df)
 ```
 
@@ -45,7 +48,7 @@ import binaryClassification
 binaryClassification.main()
 rs = binaryClassification.readResults()
 ```
-The complete output of the classification results is also stored as a dictionary in pickle format (file: *combinations-10fold.pickle*)
+The complete output of the classification results is also stored as a dictionary in pickle format (file: *combinations-10fold.pkl*)
 
 ## Wordclouds
 Follow the [link](wordclouds)
