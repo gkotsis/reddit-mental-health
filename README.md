@@ -23,7 +23,7 @@ For the syntactic features, run:
 ```python
 import pandas as pd
 import content
-df = pd.read_pickle("suicidewatch-sample.pickle")
+df = pd.read_pickle("suicidewatch-sample.pkl")
 df = content.addSyntacticFeatures(df)
 ```
 
@@ -45,7 +45,7 @@ import binaryClassification
 binaryClassification.main()
 rs = binaryClassification.readResults()
 ```
-The complete output of the classification results is also stored as a dictionary in pickle format (file: *combinations-10fold.pickle*)
+The complete output of the classification results is also stored as a dictionary in pickle format (file: *combinations-10fold.pkl*)
 
 ## Wordclouds
 Follow the [link](wordclouds)

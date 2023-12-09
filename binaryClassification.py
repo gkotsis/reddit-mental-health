@@ -12,7 +12,7 @@ subreddits.sort()
 def main(ngram_range=(1, 2)):
     import ml
     import numpy as np
-    fname = "combinations-10fold.pickle"
+    fname = "combinations-10fold.pkl"
     combinations = list(itertools.combinations(subreddits, 2))
 
     for combination in combinations:
@@ -29,11 +29,11 @@ def main(ngram_range=(1, 2)):
                 continue
 
         print("doing", combination[0], "-", combination[1])
-        df1 = pd.read_pickle(combination[0] + ".pickle")
+        df1 = pd.read_pickle(combination[0] + ".pkl")
         df1 = df1.reset_index()
         df1['text'] = df1.apply(content.getTextFromRecord, axis=1)
         df1 = df1.reindex(np.random.permutation(df1.index))
-        df2 = pd.read_pickle(combination[1] + ".pickle")
+        df2 = pd.read_pickle(combination[1] + ".pkl")
         df2 = df2.reset_index()
         df2['text'] = df2.apply(content.getTextFromRecord, axis=1)
         df2 = df2.reindex(np.random.permutation(df2.index))
@@ -67,7 +67,7 @@ def main(ngram_range=(1, 2)):
 
 
 def readResults(deviations=False):
-    df = pd.read_pickle("combinations-10fold.pickle")
+    df = pd.read_pickle("combinations-10fold.pkl")
     df = pd.DataFrame(df)
     for column in df.columns:
         for index in df.index:

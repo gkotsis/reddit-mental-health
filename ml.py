@@ -3,7 +3,7 @@ import numpy
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
-from sklearn.cross_validation import KFold
+from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 import pandas as pd
 import content
@@ -43,13 +43,13 @@ def bagOfWords(ngram_range=(2,2)):
     ])
     return pipeline
 
-def evaluate(pipeline, data=None, getScore=False):
-    k_fold = KFold(n=len(data), n_folds=6)
+def evaluate(pipeline, data, getScore=False):
+    k_fold = KFold(n_splits=6)
     scores = []
     confusion = numpy.array([[0, 0], [0, 0]])
     precision = 0
     recall = 0
-    for train_indices, test_indices in k_fold:
+    for train_indices, test_indices in k_fold.split(data):
         train_text = data.iloc[train_indices]['text'].values
         train_y = data.iloc[train_indices]['class'].values.astype(str)
 
